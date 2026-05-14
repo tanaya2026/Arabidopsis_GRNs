@@ -1,4 +1,4 @@
-# BCB330: Developing a gene regulatory network of Arabidopsis thaliana
+# Developing a gene regulatory network of Arabidopsis thaliana
 
 Recent work by Li et al., introduced a novel technique called double DNA Affinity Purification
 sequencing (dDAP-seq). dDAP-seq focuses on the dimerization (homodimerization and 
@@ -45,7 +45,7 @@ TAIR10_gff3 file to obtain genes involved in PDIs and PPIs in Arabidopsis thalia
 3. JavaScript
 
 # Methods: 
-1. Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
+## 1. Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
 and PPIs in Arabidopsis thaliana with their corresponding AGI’s 
 
 - Link to narrowPeak files from Li et al., 2023.: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
@@ -82,7 +82,7 @@ GenomicFeatures.
 
 
 
-2. Design and Implementation of a User Interface for dDAP-seq Data Visualization 
+## 2. Design and Implementation of a User Interface for dDAP-seq Data Visualization 
 
 - Link to sample dDAP data JSON file:https://bar.utoronto.ca/~nprovart/sample-double-bzip.json
 - Link to AIV2 code repository: https://github.com/VinLau/AIV-v2-cytoscapeJS/tree/master
@@ -91,6 +91,11 @@ GenomicFeatures.
 | File  | Description |
 | ------------- | ------------- |
 | aiv.js | Code to run AIV2 with dDAP-seq data implementation, and to visualize dDAP-seq determined PDI table|
+
+## Project Pipeline
+
+<img width="1693" height="929" alt="ChatGPT Image May 14, 2026, 03_55_46 PM" src="https://github.com/user-attachments/assets/18eb0710-f4d0-4205-ba49-c752c0856a7c" />
+
 
 
 
